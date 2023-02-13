@@ -7,6 +7,7 @@ const wardrobe = {
     width: 50
 }
 
+// output each of the values to your terminal using dot notation.
 console.log(wardrobe.height)
 console.log(wardrobe.manufacturer)
 console.log(wardrobe.contents)
@@ -36,11 +37,15 @@ const empireStateBuilding = {
     architect: "Shreve, Lamb & Harmon"
 }
 
+// Use dot notation to output all of the dimensions of the Empire State Building to the terminal.
 console.log(empireStateBuilding.stories)
 console.log(empireStateBuilding.height)
 console.log(empireStateBuilding.squareFeet)
 console.log(empireStateBuilding.eastWestLength)
 console.log(empireStateBuilding.northSouthLength)
+
+// Use square bracket notation to output the remaining 5 properties to the terminal. 
+// Create 5 variables first with the keys as their values. Use those variables to look up the values.
 
 let address = empireStateBuilding['address']
 let constructionDate = empireStateBuilding['constructionDate']
